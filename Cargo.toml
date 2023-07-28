@@ -1,0 +1,19 @@
+[package]
+name = "var"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mylib = { path = "lib" }
+primal = "0.2.3"
+num-bigint = "0.4"
+num-traits = "0.2"
+num-integer = "0.1"
+num = "0.4.1"
+chrono = "0.4.26"
+factorial = "0.3.0"
+[[bin]]
+name = "p001"
+path = "src/bin/p001.rs"
+test = false
+bench = false
